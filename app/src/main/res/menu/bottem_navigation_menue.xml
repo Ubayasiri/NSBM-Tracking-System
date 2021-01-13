@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/NAVIGATION_MAP"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="map"/>
+
+    <item android:id="@+id/NAVIGATION_booking"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="booking"/>
+
+    <item android:id="@+id/NAVIGATION_ACHART"
+        android:icon="@drawable/ic_baseline_table_chart_24"
+        android:title="CHART"/>
+
+    <item android:id="@+id/NAVIGATION_ADMIN"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="admin"/>
+
+
+</menu>

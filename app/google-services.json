@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1094325705511",
+    "firebase_url": "https://nsbm-app-299304-default-rtdb.firebaseio.com",
+    "project_id": "nsbm-app-299304",
+    "storage_bucket": "nsbm-app-299304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094325705511:android:8590fc11303d0bb507a702",
+        "android_client_info": {
+          "package_name": "com.example.nsbm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094325705511-f6fjej51ntu9s735q94rdmqj37ib641c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8f0QUtVm7WNN3Wg9CMsPvShyukodGW7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094325705511-f6fjej51ntu9s735q94rdmqj37ib641c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

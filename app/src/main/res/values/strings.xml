@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NSBM Shuttles</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="sername">Sername</string>
+    <string name="seat_booking">Seat Booking</string>
+
+</resources>

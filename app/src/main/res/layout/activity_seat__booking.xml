@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8303A9F4"
+    tools:context=".Seat_Booking">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="220dp"
+        android:layout_height="204dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:text="Seat Booking"
+        android:textAlignment="viewStart"
+        android:textColor="#B9000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:padding="20sp"
+        android:text="               To Go"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@android:color/holo_green_light"/>
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="129dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:padding="20sp"
+        android:text="              To Com"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/Book"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="255dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Book Now"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottem_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@drawable/item_sellected"
+        app:itemTextColor="@drawable/item_sellected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottem_navigation_menue"
+        android:layout_alignParentBottom="true"
+
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/white"
+        android:id="@+id/RadioGroop">
+
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#00FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#00FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#00FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#00FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="#00FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="#00FFFFFF" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/c2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/c3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="114dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/g1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/g2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/g3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/no_underline"
+        android:text=""
+        android:textSize="12sp" />
+
+</RelativeLayout>
